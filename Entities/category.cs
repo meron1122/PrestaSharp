@@ -32,6 +32,13 @@ namespace Bukimedia.PrestaSharp.Entities
         /// <summary>
         /// It´s a logical bool.
         /// </summary
+        /*************RALTECH*************/
+        public int is_table { get; set; }
+        public int horsepower { get; set; }
+        public string year_attribute { get; set; }
+        public string body { get; set; }
+        public string engine_code { get; set; }
+        
         public int is_root_category { get; set; }
         public List<Entities.AuxEntities.language> name { get; set; }
         public List<Entities.AuxEntities.language> link_rewrite { get; set; }
